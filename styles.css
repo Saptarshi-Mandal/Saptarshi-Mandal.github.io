@@ -1,0 +1,117 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* Header styles */
+header {
+    background-image: url('Images/Header-Background.png'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+    transition: background-position 0.5s;
+}
+
+.header-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.profile-img {
+    max-width: 200px; /* Set maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make the image round */
+}
+
+.profile-picture {
+    float: left; /* Float the image to the left */
+    margin-right: 20px; /* Add a margin to separate the text from the image */
+}
+
+.bio {
+    overflow: hidden; /* Clear the float */
+}
+
+
+header:hover {
+    background-position: 50% 70%;
+}
+
+/* Navigation styles */
+nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff7f50; /* Coral color for hover effect */
+}
+
+/* Container styles */
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Content section styles */
+.content {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.content:hover {
+    transform: translateY(-5px); /* Lift up content on hover */
+}
+
+.content h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
