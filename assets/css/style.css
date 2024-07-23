@@ -569,6 +569,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 
 .projects {padding: 50px 0 50px;}
 
+.projects .container {
+    padding: 50px 50px 50px 50px;
+}
+
 .project-content {padding: 50px 0 0 50px;}
 
 .project-title h3{
@@ -602,7 +606,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     padding: 50px 50px 50px 50px;
 }
 
-.publication-content {padding-top: 50px;}
+.publication-content {padding: 50px 0 0 50px;}
+/* .publication-content {padding-top: 50px;} */
 
 .publication-title h3{
     font-size: larger;
